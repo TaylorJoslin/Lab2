@@ -8,13 +8,11 @@ public class grounded : MonoBehaviour
     [SerializeField] private float groundDistance;
     [SerializeField] private LayerMask groundMask;
 
+  
+
     [SerializeField] private Rigidbody rb;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
@@ -25,6 +23,8 @@ public class grounded : MonoBehaviour
         {
             rb.isKinematic = false;     
         }
+
+
     }
 
   
