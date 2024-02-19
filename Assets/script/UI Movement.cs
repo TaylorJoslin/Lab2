@@ -7,7 +7,7 @@ public class UIMovement : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private screenShake screen;
-    [SerializeField] private Transform enemy,enemy2,enemy3;
+    [SerializeField] private Transform enemy,enemy2,enemy3,enemy4, enemy5;
 
     
     
@@ -35,6 +35,8 @@ public class UIMovement : MonoBehaviour
                 enemy.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy2.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy3.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
+                enemy4.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
+                enemy5.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
             } 
             else
             {
@@ -61,7 +63,8 @@ public class UIMovement : MonoBehaviour
                 enemy.transform.position += new Vector3(Random.Range(-1,2), 0, Random.Range(-1, 2));
                 enemy2.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy3.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
-              
+                enemy4.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
+                enemy5.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
             }
             else
             {
@@ -87,7 +90,8 @@ public class UIMovement : MonoBehaviour
                 enemy.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy2.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy3.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
-              
+                enemy4.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
+                enemy5.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
             }
             else
             {
@@ -113,7 +117,8 @@ public class UIMovement : MonoBehaviour
                 enemy.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy2.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
                 enemy3.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
-               
+                enemy4.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
+                enemy5.transform.position += new Vector3(Random.Range(-1, 2), 0, Random.Range(-1, 2));
             }
             else
             {

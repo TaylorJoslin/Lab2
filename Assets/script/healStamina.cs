@@ -10,11 +10,15 @@ public class healStamina : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        if (Stamina != null)
+        if (other.gameObject.CompareTag("Player"))
         {
-            Stamina.healStamina(5);
-            Destroy(this.gameObject);
+            if (Stamina != null)
+            {
+                Stamina.healStamina(5);
+                Destroy(this.gameObject);
+            }
         }
+
+           
     }
 }
